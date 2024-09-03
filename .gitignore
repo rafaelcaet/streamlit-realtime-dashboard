@@ -1,0 +1,6 @@
+/.streamlit
+.env
+/.env
+.csv
+/*.csv
+*.lock

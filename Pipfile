@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "==1.38.0"
+streamlit_authenticator = "==0.3.3"
+python-dotenv = "==1.0.0"
+pandas = "*"
+kafka-python = "*"
+streamlit-cookies-controller = "*"
+psycopg2-binary = "*"
+sqlalchemy = "*"
+
+[scripts]
+dev = "streamlit run app.py"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
